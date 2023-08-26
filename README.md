@@ -1,6 +1,9 @@
 # signup_page_localStorage
 created a signup page using local storage authentication using javascript
 
+
+Deployed link -- >  https://iam-srv.github.io/signup_page_localStorage/
+
 Handle authentication using local storage.
 Create a ui as shown in the image ,make 2 pages - signup and profile
 On clicking signup, use local storage to create the state of the user.
