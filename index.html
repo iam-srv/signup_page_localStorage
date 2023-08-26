@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left-nav">Header</div>
+            <div class="right-nav">
+                <a id="nav-signup" href="#">Sign up</a>
+                <a id="nav-profile" href="#">Profile</a>
+            </div>
+        </nav>
+    </header>
+
+    <form class="main-body" id="main-body">
+        <h1>SIGN UP</h1>
+        <div class="details">
+            
+            <input id="name" type="text" placeholder="Full Name">
+            <input id="email" type="email" placeholder="Email">
+            <input id="password" type="password" placeholder="Password">
+            <input  id="confirm-password" placeholder="Confirm Password">
+        </div>
+        <div class="validation">
+            <p id="error">Error : All the fields are mandatory</p>
+            <p id="success">Successfully Signed Up!</p>
+        </div>
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <section class="profile" id="profile">
+        <h1>profile</h1>
+        <h1 id="display-name">Full Name :</h1>
+        <h1 id="display-email">Email : </h1>
+        <h1 id="display-password">Password :</h1>
+        <button id="logout">Logout</button>
+    </section>
+   
+
+    <script src="script.js"></script>
+</body>
+
+</html>
